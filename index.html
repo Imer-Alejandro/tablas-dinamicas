@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="mesa.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas dinamicas</title>
+</head>
+<body>
+    <div class="contenido">
+        <h1>Tablas dinamicas</h1>
+        <h2>Cree y edite tabla en tiempo real</h2>
+        <div class="form">
+            <input type="number" name="" id="columnas" min="1" placeholder="columnas">
+            <input type="number" name="" id="filas" min="1" placeholder="filas">
+            <button onclick="Create_table() ">Crear</button>
+        </div>
+    </div>
+    
+    <div class="containerTable">
+       <table>
+       
+        
+       
+       </table>
+    </div>
+
+    <div class="container_btn_delete_table">
+        <button class="delete_btn" onclick="delete_table()">Eliminar</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
